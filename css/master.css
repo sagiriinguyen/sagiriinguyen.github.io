@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  user-select: none;
+  transition: 0.3s;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bg-inverse {
+    background-color: #242e38 !important;
+    margin: 0 !important;
+}
+
+body {
+  height: 10000px;
+}
+
+.contacts:hover {
+  padding: 15px;
+  border: 5px solid;
+}
+
+.contacts {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 0 10%;
+  border: 2px solid;
+}
+
+#fb {
+  border-color: #4267b2;
+}
+#wp {
+  border-color: #ff6122;
+}
